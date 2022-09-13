@@ -4,8 +4,7 @@ const port = 5000;
 const app = express();
 
 app.get('/api', (req, res) => {
-  res.statusCode = 200;
-  res.send('Hi');
+  res.send('asd');
 });
 
 app.listen(port, () => {
